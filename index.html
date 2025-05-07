@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pedir</title>
   <style>
@@ -13,6 +14,7 @@
       height: 100vh;
       background-color: #f4f4f4;
       flex-direction: column;
+      font-family: 'Poppins', sans-serif; 
     }
 
     .card-container {
@@ -31,6 +33,10 @@
       transform-style: preserve-3d;
       transition: transform 0.6s;
       position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .card:hover {
@@ -51,6 +57,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
     }
 
     .card .card-back {
@@ -81,17 +88,18 @@
     }
 
     .button-container button:hover {
-      background-color: #ddd;
+      border: 1px solid black;
+      background-color: white;
+      color: black;
     }
 
     .yes-button {
-      background-color: #28a745;
-      color: white;
+
     }
 
     .no-button {
-      background-color: #dc3545;
-      color: white;
+  
+   
     }
 
     .gif-card {
@@ -114,7 +122,14 @@
       margin-top: 10px;
       font-size: 20px;
       font-weight: bold;
-      color: #333;
+      color: black;
+    }
+
+    .numero {
+      font-size: 30px;
+      text-align: center;
+      color: red;
+      margin-top: -60px;
     }
   </style>
 </head>
@@ -124,6 +139,7 @@
   <div class="card">
     <div class="card-front">
       <img src="Logo Abogada elegante minimalista blanco con negro  (1).png" style="width: 100%; height: auto; border-radius: 20px;" />
+      <div class="numero">100</div>
     </div>
     <div class="card-back">
       <p>¿Quieres ser mi polola linda?</p>
@@ -135,16 +151,15 @@
   </div>
 </div>
 
-
 <div id="gifCard" class="gif-card">
   <img src="monki-flips-dies.gif" alt="monki gif">
-  <div class="mensaje" style="font-size: 15px; font-family: 'Courier New', Courier, monospace;">VAMOOOOOOOOOO TE AMO MIAMORSITOOO</div>
+  <div class="mensaje" style="font-size: 15px;">VAMOOOOOOOOOO TE AMO MIAMORSITOOO</div>
 </div>
-
 
 <div id="gifCard2" class="gif-card">
   <img src="monki-flips-dies-ezgif.com-reverse.gif" alt="monki gif reverse">
-  <div class="mensaje" style="font-size: 15px; font-family: 'Courier New', Courier, monospace;">OK NO MONO FLIP</div>
+  <div class="mensaje" style="font-size: 15px; ">OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOK</div>
+  <div class="mensaje" style="font-size: 15px;">NO MONO FLIP</div>
 </div>
 
 <script>
