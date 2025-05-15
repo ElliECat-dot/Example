@@ -133,13 +133,13 @@ body {
   object-fit: cover;
 }
 .top-left {
-  top: 1px;
+  top: auto;
   left: -180px;
 }
 
 .bottom-right {
-  bottom: 1px;
-  right: -80px;
+  bottom: auto;
+  right: -180px;
 }
 .mensaje {
   margin-top: 10px;
