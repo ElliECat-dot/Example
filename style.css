@@ -128,8 +128,8 @@ body {
 
 .tiny-gif {
   position: absolute;
-  width: 10vw;
-  height: 10vw;
+  width: 20vw;
+  height: 20vw;
   max-width: 80px;
   max-height: 80px;
   min-width: 20px;
@@ -139,11 +139,11 @@ body {
 }
 .top-left {
   top: -5px;
-  left: -50px;
+  left: 50px;
 }
 
 .bottom-right {
-  bottom: 0px;
+  bottom: -20px;
   right: 20px;
 }
 .mensaje {
