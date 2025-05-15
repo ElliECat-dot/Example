@@ -138,13 +138,13 @@ body {
   z-index: 1;
 }
 .top-left {
-  top: -5px;
+  top: 100px;
   left: 50px;
 }
 
 .bottom-right {
-  bottom: -20px;
-  right: 20px;
+  bottom: 100Px;
+  right: 50px;
 }
 .mensaje {
   margin-top: 10px;
