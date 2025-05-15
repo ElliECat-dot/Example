@@ -134,12 +134,12 @@ body {
 }
 .top-left {
   top: 1px;
-  left: -80px;
+  left: -180px;
 }
 
 .bottom-right {
-  bottom: -80px;
-  right: -10px;
+  bottom: 1px;
+  right: -80px;
 }
 .mensaje {
   margin-top: 10px;
