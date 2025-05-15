@@ -132,16 +132,15 @@ body {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  z-index: 1;
 }
 .top-left {
-  top: 1px;
-  left: 1px;
+  top: 20px;
+  left: 20px;
 }
 
 .bottom-right {
-  bottom: 1px;
-  right: 1px;
+  bottom: 30px;
+  right: 30px;
 }
 .mensaje {
   margin-top: 10px;
