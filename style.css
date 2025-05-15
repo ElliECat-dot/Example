@@ -128,21 +128,24 @@ body {
 
 .tiny-gif {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 10vw;
+  height: 10vw;
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 50%;
   object-fit: cover;
   z-index: 1;
 }
-
 .top-left {
-  top: -10px;
-  left: -10px;
+  top: -3vw;
+  left: -3vw;
 }
 
 .bottom-right {
-  bottom: 2px;
-  right: 2px;
+  bottom: -3vw;
+  right: -3vw;
 }
 .mensaje {
   margin-top: 10px;
