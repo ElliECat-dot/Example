@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.card-container {
+  perspective: 1000px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 380px;
+  height: 380px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .card-front, .card .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.card .card-front {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card .card-back {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button {
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+  
+.yes-button {
+  background-color: #00c18c;
+  color: white;
+}
+  
+.no-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+  
+.yes-button:hover {
+  background-color: white;
+  color: #00c18c;
+  border: 2px solid #00c18c;
+}
+  
+.no-button:hover {
+  background-color: white;
+  color: #ff4d4d;
+  border: 2px solid #ff4d4d;
+}
+
+.gif-card {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  }
+
+.gif-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.mensaje {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.numero {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: -60px;
+}
+
+.minion-love{
+  width: 100%; 
+  height: auto; 
+  border-radius: 20px;
+}
