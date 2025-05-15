@@ -126,6 +126,24 @@ body {
   object-fit: cover;
 }
 
+.tiny-gif {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.top-left {
+  top: -10px;
+  left: -10px;
+}
+
+.bottom-right {
+  bottom: 2px;
+  right: 2px;
+}
 .mensaje {
   margin-top: 10px;
   font-size: 15px;
