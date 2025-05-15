@@ -128,19 +128,20 @@ body {
 
 .tiny-gif {
   position: absolute;
-  width: clamp(60px, 7vw, 60px);
-  height: clamp(60px, 7vw, 60px);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   object-fit: cover;
   z-index: 1;
 }
 .top-left {
-  top: clamp(-12px, -3vw, -20px);
-  left: clamp(-12px, -3vw, -20px);
+  top: 10px;
+  left: 10px;
 }
 
 .bottom-right {
-  bottom: clamp(-12px, -3vw, -20px);
-  right: clamp(-12px, -3vw, -20px);
+  bottom: 10px;
+  right: 10px;
 }
 .mensaje {
   margin-top: 10px;
